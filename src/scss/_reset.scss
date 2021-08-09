@@ -9,6 +9,20 @@
     outline: 0;
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    color: $text;
+}
+@mixin font-style ($size, $weight) {
+    font-size:$size;
+    font-weight:$weight;
+}
+h2 {
+    @include font-style(2rem, 700)
+}
+h1 {
+    @include font-style(6.8rem, 900)
+}
+p {
+    @include font-style(1.6rem, 400)
 }
 
 body {
