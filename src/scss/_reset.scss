@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 @import 'colors';
 
@@ -11,6 +10,12 @@
     font-family: 'Poppins', sans-serif;
     color: $text;
 }
+body {
+    background: $bg;
+    background-repeat: no-repeat;
+    box-shadow: $box-shadow;
+}
+
 
 @mixin font-style ($size, $weight) {
     font-size:$size;
@@ -23,9 +28,4 @@
     margin: auto;
     align-items: center;
     justify-content: space-between;
-}
-body {
-    background: $bg;
-    background-repeat: no-repeat;
-    box-shadow: $box-shadow;
 }

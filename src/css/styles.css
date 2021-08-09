@@ -10,24 +10,6 @@
   color: #F9F9F9;
 }
 
-h2 {
-  margin-bottom: 1.4rem;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-h1 {
-  margin-bottom: 2.5rem;
-  font-size: 6.8rem;
-  font-weight: 900;
-}
-
-p {
-  width: 44.5rem;
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
 main, header {
   display: flex;
   max-width: 120rem;
@@ -42,16 +24,6 @@ body {
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: 0;
-  font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
-  color: #F9F9F9;
-}
-
 h2 {
   margin-bottom: 1.4rem;
   font-size: 2rem;
@@ -68,6 +40,16 @@ p {
   width: 44.5rem;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  color: #F9F9F9;
 }
 
 main, header {
