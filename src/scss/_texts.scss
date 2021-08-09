@@ -1,0 +1,13 @@
+h2 {
+    margin-bottom: 1.4rem;
+    @include font-style(2rem, 700)
+}
+h1 {
+    margin-bottom: 2.5rem;
+    @include font-style(6.8rem, 900)
+}
+p {
+    width: 44.5rem;
+    
+    @include font-style(1.6rem, 400)
+}
