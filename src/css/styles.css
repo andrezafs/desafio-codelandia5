@@ -75,6 +75,10 @@ body {
   background: #628E75;
   border: 0;
 }
+.buttons button:hover {
+  background: transparent;
+  border: 0.2rem solid #658E76;
+}
 .buttons button a {
   position: absolute;
   left: 19%;
