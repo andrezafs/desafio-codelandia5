@@ -1,2 +1,11 @@
 @import 'reset';
 @import 'colors';
+
+header {
+    display: flex;
+    max-width: 120rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4.1rem ;
+}
