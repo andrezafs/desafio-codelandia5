@@ -2,13 +2,33 @@
 .buttons {
     margin-top: 4.6rem;
     button {
+        transform: skew(-15deg);
+        position: relative;
         border: 0;
-        cursor:pointer;
-        padding: .8rem 3rem;
+        cursor: pointer;
+        width: 22.5rem;
+        height: 4.5rem;
         text-transform: uppercase;
         background: $bg-button;
-        @include font-style (1.6rem, 400);
-
+      
+        a {
+            text-decoration: none;
+            transform: skew(15deg);
+        position: absolute;
+        text-align: center;
+            left: 19%;
+            top: 25%;
+            @include font-style (1.6rem, 400);
+        }
     }
-   
+
+    .play {
+        margin-right: 2rem;
+        a {
+            display: inline-flex;    
+        }
+        img {
+            margin-right: 1rem;
+        }
+    }
 }
