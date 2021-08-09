@@ -1,0 +1,12 @@
+{
+  "name": "desafio5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sass --watch src/scss/styles.scss src/css/styles.css"
+  },
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
