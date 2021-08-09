@@ -66,22 +66,21 @@ body {
   margin-top: 4.6rem;
 }
 .buttons button {
-  transform: skew(-15deg);
-  position: relative;
-  border: 0;
-  cursor: pointer;
   width: 22.5rem;
   height: 4.5rem;
+  transform: skew(-15deg);
+  position: relative;
+  cursor: pointer;
   text-transform: uppercase;
   background: #628E75;
+  border: 0;
 }
 .buttons button a {
-  text-decoration: none;
-  transform: skew(15deg);
   position: absolute;
-  text-align: center;
   left: 19%;
   top: 25%;
+  text-decoration: none;
+  transform: skew(15deg);
   font-size: 1.6rem;
   font-weight: 400;
 }

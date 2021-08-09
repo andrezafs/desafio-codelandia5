@@ -2,26 +2,25 @@
 .buttons {
     margin-top: 4.6rem;
     button {
-        transform: skew(-15deg);
-        position: relative;
-        border: 0;
-        cursor: pointer;
         width: 22.5rem;
         height: 4.5rem;
+        transform: skew(-15deg);
+        position: relative;
+        cursor: pointer;
         text-transform: uppercase;
         background: $bg-button;
+        border: 0;
       
         a {
-            text-decoration: none;
-            transform: skew(15deg);
-        position: absolute;
-        text-align: center;
+            position: absolute;
             left: 19%;
             top: 25%;
+            text-decoration: none;
+            transform: skew(15deg);
+       
             @include font-style (1.6rem, 400);
         }
     }
-
     .play {
         margin-right: 2rem;
         a {
