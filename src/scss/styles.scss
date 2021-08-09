@@ -14,9 +14,15 @@ header {
     @extend %flex;
     padding: 4.1rem; 
    
-
-   img {
-       margin: 0 1.5rem;
+   svg {
+    margin: 0 1.5rem;
+    transition: fill 0.2s;
+    .facb {
+        &:hover {
+            fill:blue;
+        }
+    }
+    
    }
     }
 main {

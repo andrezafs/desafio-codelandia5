@@ -109,8 +109,12 @@ main, header {
 header {
   padding: 4.1rem;
 }
-header img {
+header svg {
   margin: 0 1.5rem;
+  transition: fill 0.2s;
+}
+header svg .facb:hover {
+  fill: blue;
 }
 
 main {
