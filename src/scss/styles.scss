@@ -3,19 +3,24 @@
 @import 'texts'; 
 @import 'buttons';
 
-header {
-    display: flex;
-    max-width: 120rem;
+%flex {
+    display: flex; 
+    max-width: 120rem; 
+    margin: auto;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    padding: 4.1rem ;
+}
+header {
+    @extend %flex;
+    padding: 4.1rem; 
+   
 
    img {
        margin: 0 1.5rem;
    }
     }
 main {
-    display: flex;
+    @extend %flex;
     flex-wrap: wrap;
+   
 }

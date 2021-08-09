@@ -22,6 +22,8 @@ h1 {
     @include font-style(6.8rem, 900)
 }
 p {
+    width: 44.5rem;
+    
     @include font-style(1.6rem, 400)
 }
 

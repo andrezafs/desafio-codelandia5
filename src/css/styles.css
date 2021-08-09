@@ -20,6 +20,7 @@ h1 {
 }
 
 p {
+  width: 44.5rem;
   font-size: 1.6rem;
   font-weight: 400;
 }
@@ -29,12 +30,15 @@ body {
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-header {
+main, header {
   display: flex;
   max-width: 120rem;
+  margin: auto;
   align-items: center;
   justify-content: space-between;
-  margin: auto;
+}
+
+header {
   padding: 4.1rem;
 }
 header img {
@@ -42,7 +46,6 @@ header img {
 }
 
 main {
-  display: flex;
   flex-wrap: wrap;
 }
 
