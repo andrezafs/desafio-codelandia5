@@ -1,0 +1,14 @@
+@import 'reset';
+.buttons {
+    margin-top: 4.6rem;
+    button {
+        border: 0;
+        cursor:pointer;
+        padding: .8rem 3rem;
+        text-transform: uppercase;
+        background: $bg-button;
+        @include font-style (1.6rem, 400);
+
+    }
+   
+}
