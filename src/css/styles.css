@@ -5,6 +5,7 @@
   box-sizing: border-box;
   outline: 0;
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -19,10 +20,14 @@ header {
   justify-content: space-between;
   margin: auto;
   padding: 4.1rem;
-  flex-wrap: wrap;
 }
 header img {
   margin: 0 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=styles.css.map */
