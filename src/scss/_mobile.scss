@@ -1,0 +1,17 @@
+@media (max-width:1200px) {
+    main {
+        flex-direction: column-reverse;
+        padding: 2rem 0;
+    .buttons {
+        .trailer {
+            display: none;
+        }
+    }
+    .bg {
+        img {
+            width: 100%;
+        }
+    }
+    }
+    
+}

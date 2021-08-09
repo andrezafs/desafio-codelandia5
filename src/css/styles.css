@@ -26,8 +26,17 @@ p {
   font-weight: 400;
 }
 
+main, header {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+  background-repeat: no-repeat;
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
@@ -57,8 +66,17 @@ p {
   font-weight: 400;
 }
 
+main, header {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+  background-repeat: no-repeat;
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
@@ -98,23 +116,24 @@ body {
   margin-right: 1rem;
 }
 
-main, header {
-  display: flex;
-  max-width: 120rem;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
+@media (max-width: 1200px) {
+  main {
+    flex-direction: column-reverse;
+    padding: 2rem 0;
+  }
+  main .buttons .trailer {
+    display: none;
+  }
+  main .bg img {
+    width: 100%;
+  }
 }
-
 header {
-  padding: 4.1rem;
+  height: 10rem;
 }
-header svg {
+header img {
   margin: 0 1.5rem;
   transition: fill 0.2s;
-}
-header svg .facb:hover {
-  fill: blue;
 }
 
 main {

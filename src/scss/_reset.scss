@@ -11,6 +11,7 @@
     font-family: 'Poppins', sans-serif;
     color: $text;
 }
+
 @mixin font-style ($size, $weight) {
     font-size:$size;
     font-weight:$weight;
@@ -27,7 +28,15 @@ p {
     @include font-style(1.6rem, 400)
 }
 
+%flex {
+    display: flex; 
+    max-width: 120rem; 
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
 body {
     background: $bg;
+    background-repeat: no-repeat;
     box-shadow: $box-shadow;
 }

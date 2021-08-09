@@ -2,31 +2,19 @@
 @import 'colors';
 @import 'texts'; 
 @import 'buttons';
+@import 'mobile';
 
-%flex {
-    display: flex; 
-    max-width: 120rem; 
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-}
 header {
     @extend %flex;
-    padding: 4.1rem; 
-   
-   svg {
+    height: 10rem;
+   img {
     margin: 0 1.5rem;
     transition: fill 0.2s;
-    .facb {
-        &:hover {
-            fill:blue;
-        }
-    }
-    
    }
-    }
+}
 main {
+   
     @extend %flex;
     flex-wrap: wrap;
-   
+
 }
