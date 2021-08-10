@@ -16,7 +16,7 @@ body {
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-main, header {
+.main-container, header {
   display: flex;
   max-width: 120rem;
   margin: auto;
@@ -39,12 +39,12 @@ header img:hover {
   color: #628E75;
 }
 
-main {
+.main-container {
   flex-wrap: wrap;
   padding: 1.65rem;
 }
 
-header, main {
+header, .main-container {
   display: flex;
   max-width: 120rem;
   margin: auto;
@@ -90,7 +90,7 @@ body {
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-header, main {
+header, .main-container {
   display: flex;
   max-width: 120rem;
   margin: auto;
@@ -163,16 +163,16 @@ p {
     overflow-x: hidden;
   }
 
-  main {
+  .main-container {
     flex-direction: column-reverse;
   }
-  main .buttons .trailer {
+  .main-container .buttons .trailer {
     display: none;
   }
-  main #bg img {
+  .main-container #bg img {
     width: 100%;
   }
-  main #texts {
+  .main-container #texts {
     max-width: 100%;
   }
 }

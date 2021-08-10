@@ -1,3 +1,4 @@
+  
 header {
     @extend %flex;
     height: 12.1rem;
@@ -10,12 +11,10 @@ header {
     }
    }
 }
-main {
+.main-container {
     @extend %flex;
     flex-wrap: wrap;
     padding: 1.65rem;
 }
-
-
 
 

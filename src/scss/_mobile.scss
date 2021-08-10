@@ -3,7 +3,7 @@
     body{
         overflow-x: hidden;
     }
-    main {
+    .main-container {
         flex-direction: column-reverse;
         .buttons {
         .trailer {
@@ -21,5 +21,4 @@
         max-width: 100%;
     }
     }
-    
 }
