@@ -173,7 +173,7 @@ p {
     width: 100%;
   }
   .main-container #texts {
-    max-width: 100%;
+    width: 90%;
   }
 }
 
