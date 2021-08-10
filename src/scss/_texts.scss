@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import 'mixins';
+
 
 h2 {
     margin-bottom: 1.4rem;
-    @include font-style(2rem, 700)
+    @include font-style(2rem, 700);
+    @extend %uppercase;
 }
 h1 {
     margin-bottom: 2.5rem;
-    @include font-style(6.8rem, 900)
+    @include font-style(6.8rem, 900); 
+    @extend %uppercase;
 }
 p {
     width: 44.5rem;
-    
-    @include font-style(1.6rem, 400)
+    @include font-style(1.6rem, 400); 
+   
 }

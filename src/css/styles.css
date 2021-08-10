@@ -10,6 +10,12 @@
   color: #F9F9F9;
 }
 
+body {
+  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+  background-repeat: no-repeat;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
 main, header {
   display: flex;
   max-width: 120rem;
@@ -18,10 +24,36 @@ main, header {
   justify-content: space-between;
 }
 
-body {
-  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  background-repeat: no-repeat;
-  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+.buttons button, h1, h2 {
+  text-transform: uppercase;
+}
+
+header {
+  height: 12.1rem;
+}
+header img {
+  margin: 0 1.5rem;
+  transition: fill 0.2s;
+}
+header img:hover {
+  color: #628E75;
+}
+
+main {
+  flex-wrap: wrap;
+  padding: 1.65rem;
+}
+
+header, main {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button, h1, h2 {
+  text-transform: uppercase;
 }
 
 h2 {
@@ -52,7 +84,13 @@ p {
   color: #F9F9F9;
 }
 
-main, header {
+body {
+  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+  background-repeat: no-repeat;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+header, main {
   display: flex;
   max-width: 120rem;
   margin: auto;
@@ -60,22 +98,37 @@ main, header {
   justify-content: space-between;
 }
 
-body {
-  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  background-repeat: no-repeat;
-  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+.buttons button, h2, h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  font-size: 6.8rem;
+  font-weight: 900;
+}
+
+p {
+  width: 44.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .buttons {
   margin-top: 4.6rem;
 }
 .buttons button {
+  position: relative;
   width: 22.5rem;
   height: 4.5rem;
   transform: skew(-15deg);
-  position: relative;
   cursor: pointer;
-  text-transform: uppercase;
   background: #628E75;
   border: 0;
 }
@@ -113,18 +166,6 @@ body {
   main .bg img {
     width: 100%;
   }
-}
-header {
-  height: 12.1rem;
-}
-header img {
-  margin: 0 1.5rem;
-  transition: fill 0.2s;
-}
-
-main {
-  flex-wrap: wrap;
-  padding: 1.65rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

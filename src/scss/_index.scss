@@ -1,0 +1,20 @@
+header {
+    @extend %flex;
+    height: 12.1rem;
+   img {
+    margin: 0 1.5rem;
+    transition: fill 0.2s;
+
+    &:hover {
+        color: $bg-button;
+    }
+   }
+}
+main {
+    @extend %flex;
+    flex-wrap: wrap;
+    padding: 1.65rem;
+}
+
+
+

@@ -1,16 +1,18 @@
 @import 'reset';
-@import  'colors';
+@import 'colors';
+@import 'texts';
+
 .buttons {
     margin-top: 4.6rem;
     button {
+        position: relative;
         width: 22.5rem;
         height: 4.5rem;
         transform: skew(-15deg);
-        position: relative;
         cursor: pointer;
-        text-transform: uppercase;
         background: $bg-button;
         border: 0;
+        @extend %uppercase;
       &:hover {
           background: transparent;
           border: .2rem solid $border;
@@ -21,7 +23,7 @@
             top: 25%;
             text-decoration: none;
             transform: skew(15deg);
-       
+    
             @include font-style (1.6rem, 400);
         }
     }

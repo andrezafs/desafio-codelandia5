@@ -1,0 +1,16 @@
+
+@mixin font-style ($size, $weight) {
+    font-size:$size;
+    font-weight:$weight;
+}
+
+%flex {
+    display: flex; 
+    max-width: 120rem; 
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+%uppercase {
+    text-transform: uppercase;
+}
