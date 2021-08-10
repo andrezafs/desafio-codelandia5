@@ -28,6 +28,20 @@
   text-transform: uppercase;
 }
 
+@keyframes animation {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 header {
   height: 12.1rem;
 }
@@ -42,6 +56,9 @@ header img:hover {
 .main-container {
   flex-wrap: wrap;
   padding: 1.65rem;
+}
+.main-container #bg img {
+  animation: animation 10s ease-out infinite;
 }
 
 header, .main-container {
@@ -182,6 +199,20 @@ p {
   }
   .main-container #texts {
     width: 90%;
+  }
+}
+@keyframes animation {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 
