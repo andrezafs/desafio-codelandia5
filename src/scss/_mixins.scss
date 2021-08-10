@@ -1,13 +1,12 @@
-
-@mixin font-style ($size, $weight, $heigth) {
-    font-size:$size;
-    font-weight:$weight;
+@mixin font-style($size, $weight, $heigth) {
+    font-size: $size;
+    font-weight: $weight;
     line-height: $heigth;
 }
 
 %flex {
-    display: flex; 
-    max-width: 120rem; 
+    display: flex;
+    max-width: 120rem;
     margin: auto;
     align-items: center;
     justify-content: space-between;

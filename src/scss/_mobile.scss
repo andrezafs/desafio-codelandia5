@@ -1,25 +1,23 @@
-@media (max-width:1200px) {
-
-    .container{
+@media (max-width: 1200px) {
+    .container {
         overflow-x: hidden;
     }
     .main-container {
-        padding: 4rem ;
+        padding: 4rem;
         flex-direction: column-reverse;
         .buttons {
-        .trailer {
-            display: none;
+            .trailer {
+                display: none;
+            }
         }
-    }
-    #bg {
-        img {
-            width: 100%;
+        #bg {
+            img {
+                width: 100%;
+            }
         }
-    }
 
-    #texts {
-      width:90%;
-    
-    }
+        #texts {
+            width: 90%;
+        }
     }
 }

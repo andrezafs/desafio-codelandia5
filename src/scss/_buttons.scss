@@ -1,6 +1,6 @@
-@import 'reset';
-@import 'colors';
-@import 'texts';
+@import "reset";
+@import "colors";
+@import "texts";
 
 .buttons {
     display: inline-flex;
@@ -16,24 +16,24 @@
         background: $bg-button;
         border: 0;
         @extend %uppercase;
-      &:hover {
-          background: transparent;
-          border: .2rem solid $border;
-      }
+        &:hover {
+            background: transparent;
+            border: 0.2rem solid $border;
+        }
         a {
             position: absolute;
             left: 19%;
             top: 25%;
             text-decoration: none;
             transform: skew(15deg);
-    
-            @include font-style (1.6rem, 400);
+
+            @include font-style(1.6rem, 400);
         }
     }
     .play {
         margin-right: 2rem;
         a {
-            display: inline-flex;    
+            display: inline-flex;
         }
         img {
             margin-right: 1rem;
