@@ -32,9 +32,6 @@
   0% {
     transform: translateY(0px);
   }
-  25% {
-    transform: translateY(-20px);
-  }
   50% {
     transform: translateY(20px);
   }
@@ -58,7 +55,7 @@ header img:hover {
   padding: 1.65rem;
 }
 .main-container #bg img {
-  animation: animation 10s ease-out infinite;
+  animation: animation 5s ease-out infinite;
 }
 
 header, .main-container {
@@ -204,9 +201,6 @@ p {
 @keyframes animation {
   0% {
     transform: translateY(0px);
-  }
-  25% {
-    transform: translateY(-20px);
   }
   50% {
     transform: translateY(20px);
