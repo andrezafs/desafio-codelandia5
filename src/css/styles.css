@@ -12,16 +12,16 @@
 
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
   background-repeat: no-repeat;
-  height: 100vh;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-header {
+main, header {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .buttons button, h1, h2 {
@@ -30,28 +30,26 @@ header {
 
 header {
   height: 12.1rem;
-  justify-content: space-between;
 }
 header img {
   margin: 0 1.5rem;
+  transition: fill 0.2s;
 }
 header img:hover {
   color: #628E75;
 }
 
-.main {
-  padding: 0 16.5rem;
-  display: flex;
-  align-items: center;
+main {
   flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 1.65rem;
 }
 
-header {
+header, main {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .buttons button, h1, h2 {
@@ -88,16 +86,16 @@ p {
 
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
   background-repeat: no-repeat;
-  height: 100vh;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
-header {
+header, main {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .buttons button, h2, h1 {
@@ -160,14 +158,10 @@ p {
   margin-right: 1rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   main {
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-  main .buttons {
-    display: none;
+    padding: 2rem 0;
   }
   main .buttons .trailer {
     display: none;
