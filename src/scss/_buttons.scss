@@ -1,4 +1,4 @@
-@import "reset";
+ @import "reset";
 @import "colors";
 @import "texts";
 
@@ -23,11 +23,11 @@
         a {
             position: absolute;
             left: 19%;
-            top: 25%;
+            top: 19%;
             text-decoration: none;
             transform: skew(15deg);
 
-            @include font-style(1.6rem, 400);
+            @include font-style(1.6rem, 400, 2.88rem);
         }
     }
     .play {

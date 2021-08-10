@@ -1,23 +1,188 @@
-/* Error: Missing argument $heigth.
- *   ,--> src\scss\_buttons.scss
- * 30|             @include font-style (1.6rem, 400);
- *   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
- *   '
- *   ,--> src\scss\_mixins.scss
- * 2 | @mixin font-style ($size, $weight, $heigth) {
- *   |        ==================================== declaration
- *   '
- *   src\scss\_buttons.scss 30:13  font-style()
- *   src\scss\_buttons.scss 30:13  @import
- *   src\scss\styles.scss 6:9      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Missing argument $heigth.\a   \250c \2500 \2500 > src\\scss\\_buttons.scss\a 30\2502              @include font-style (1.6rem, 400);\d\a   \2502              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > src\\scss\\_mixins.scss\a 2 \2502  @mixin font-style ($size, $weight, $heigth) {\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   src\\scss\\_buttons.scss 30:13  font-style()\a   src\\scss\\_buttons.scss 30:13  @import\a   src\\scss\\styles.scss 6:9      root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  color: #f9f9f9;
 }
+
+.container {
+  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
+  background-repeat: no-repeat;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+.main-container, header {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button, h1, h2 {
+  text-transform: uppercase;
+}
+
+header {
+  height: 12.1rem;
+}
+header img {
+  margin: 0 1.5rem;
+  transition: fill 0.2s;
+}
+header img:hover {
+  color: #628e75;
+}
+
+.main-container {
+  flex-wrap: wrap;
+  padding: 1.65rem;
+}
+
+header, .main-container {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button, h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  font-size: 6.8rem;
+  font-weight: 900;
+  line-height: 7.412rem;
+}
+
+p {
+  width: 44.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.88rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  color: #f9f9f9;
+}
+
+.container {
+  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
+  background-repeat: no-repeat;
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+header, .main-container {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button, h2, h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  font-size: 6.8rem;
+  font-weight: 900;
+  line-height: 7.412rem;
+}
+
+p {
+  width: 44.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.88rem;
+}
+
+.buttons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.6rem;
+}
+.buttons button {
+  position: relative;
+  width: 22.5rem;
+  height: 4.5rem;
+  transform: skew(-15deg);
+  cursor: pointer;
+  background: #628e75;
+  border: 0;
+}
+.buttons button:hover {
+  background: transparent;
+  border: 0.2rem solid #658e76;
+}
+.buttons button a {
+  position: absolute;
+  left: 19%;
+  top: 19%;
+  text-decoration: none;
+  transform: skew(15deg);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.88rem;
+}
+.buttons .play {
+  margin-right: 2rem;
+}
+.buttons .play a {
+  display: inline-flex;
+}
+.buttons .play img {
+  margin-right: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    padding: 4rem;
+    flex-direction: column-reverse;
+  }
+  .main-container .buttons .trailer {
+    display: none;
+  }
+  .main-container #bg img {
+    width: 100%;
+  }
+  .main-container #texts {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
