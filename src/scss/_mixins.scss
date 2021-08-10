@@ -1,7 +1,8 @@
 
-@mixin font-style ($size, $weight) {
+@mixin font-style ($size, $weight, $heigth) {
     font-size:$size;
     font-weight:$weight;
+    line-height: $heigth;
 }
 
 %flex {
