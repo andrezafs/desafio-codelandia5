@@ -1,17 +1,22 @@
-@media (max-width:1200px) {
+@media (max-width:900px) {
+   
     main {
-        flex-direction: column-reverse;
-        padding: 2rem 0;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
     .buttons {
+        display: none;
         .trailer {
             display: none;
         }
     }
-    .bg {
+    #bg {
         img {
             width: 100%;
         }
     }
+
+    
     }
     
 }

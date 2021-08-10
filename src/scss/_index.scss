@@ -1,20 +1,26 @@
 header {
     @extend %flex;
     height: 12.1rem;
+    justify-content: space-between;
    img {
     margin: 0 1.5rem;
-    transition: fill 0.2s;
+
 
     &:hover {
         color: $bg-button;
     }
    }
 }
-main {
-    @extend %flex;
+ 
+   .main {
+       padding: 0 16.5rem;
+
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 1.65rem;
-}
+    justify-content: space-between;
+   
+   }
 
 
 

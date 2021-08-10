@@ -3,6 +3,9 @@
 @import 'texts';
 
 .buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 4.6rem;
     button {
         position: relative;

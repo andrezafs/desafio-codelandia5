@@ -12,16 +12,16 @@
 
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  background-repeat: no-repeat;
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-main, header {
+header {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
-  justify-content: space-between;
 }
 
 .buttons button, h1, h2 {
@@ -30,26 +30,28 @@ main, header {
 
 header {
   height: 12.1rem;
+  justify-content: space-between;
 }
 header img {
   margin: 0 1.5rem;
-  transition: fill 0.2s;
 }
 header img:hover {
   color: #628E75;
 }
 
-main {
+.main {
+  padding: 0 16.5rem;
+  display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 1.65rem;
+  justify-content: space-between;
 }
 
-header, main {
+header {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
-  justify-content: space-between;
 }
 
 .buttons button, h1, h2 {
@@ -86,16 +88,16 @@ p {
 
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
-  background-repeat: no-repeat;
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-header, main {
+header {
   display: flex;
   max-width: 120rem;
   margin: auto;
   align-items: center;
-  justify-content: space-between;
 }
 
 .buttons button, h2, h1 {
@@ -121,6 +123,9 @@ p {
 }
 
 .buttons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 4.6rem;
 }
 .buttons button {
@@ -155,15 +160,19 @@ p {
   margin-right: 1rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   main {
     flex-direction: column-reverse;
-    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+  main .buttons {
+    display: none;
   }
   main .buttons .trailer {
     display: none;
   }
-  main .bg img {
+  main #bg img {
     width: 100%;
   }
 }
