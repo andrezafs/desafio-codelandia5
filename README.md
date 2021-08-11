@@ -14,7 +14,7 @@ Para o desenvolvimento deste site foram utilizadas as seguintes tecnologias:
 - SASS
 ## 💻 Projeto
 
-Ciação de um site semântico e responsivo sobre o filme A Viagem de Chihiro, da Studio Ghibli. 
+Criação de um site semântico e responsivo sobre o filme A Viagem de Chihiro, da Studio Ghibli. 
 
 Este é um projeto desenvolvido a partir do desafio da comunidade [@Codelândia](https://discord.com/invite/QevDJqCzaY).
 
