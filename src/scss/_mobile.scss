@@ -3,7 +3,7 @@
         overflow-x: hidden;
     }
     .main-container {
-        padding: 4rem;
+        padding: 4rem 0;
         flex-direction: column-reverse;
         .buttons {
             .trailer {
@@ -16,8 +16,20 @@
             }
         }
 
-        #texts {
-            width: 90%;
+    }
+
+    #texts {
+        width: 80%;
+
+        h2 {
+            font-size: 2rem;
+        }
+        h1 {
+            font-size: 5.6rem;
+        }
+        p {
+            width: 100%;
+           font-size: 1.6rem
         }
     }
 }

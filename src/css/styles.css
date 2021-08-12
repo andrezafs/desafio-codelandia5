@@ -185,7 +185,7 @@ p {
   }
 
   .main-container {
-    padding: 4rem;
+    padding: 4rem 0;
     flex-direction: column-reverse;
   }
   .main-container .buttons .trailer {
@@ -194,8 +194,19 @@ p {
   .main-container #bg img {
     width: 100%;
   }
-  .main-container #texts {
-    width: 90%;
+
+  #texts {
+    width: 80%;
+  }
+  #texts h2 {
+    font-size: 2rem;
+  }
+  #texts h1 {
+    font-size: 5.6rem;
+  }
+  #texts p {
+    width: 100%;
+    font-size: 1.6rem;
   }
 }
 @keyframes animation {
