@@ -1,6 +1,11 @@
 @media (max-width: 1200px) {
+
+
     .container {
-        overflow-x: hidden;
+        overflow-x: hidden; 
+        header {
+            width: 80%;
+         }
     }
     .main-container {
         padding: 4rem 0;

@@ -183,6 +183,9 @@ p {
   .container {
     overflow-x: hidden;
   }
+  .container header {
+    width: 80%;
+  }
 
   .main-container {
     padding: 4rem 0;
