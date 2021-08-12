@@ -3,11 +3,11 @@
 header {
     @extend %flex;
     height: 12.1rem;
-    img {
+    svg {
         margin: 0 1.5rem;
         transition: fill 0.2s;
         &:hover {
-            color: $bg-button;
+            fill: $color-dark;
         }
     }
 }

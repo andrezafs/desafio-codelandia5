@@ -42,12 +42,12 @@
 header {
   height: 12.1rem;
 }
-header img {
+header svg {
   margin: 0 1.5rem;
   transition: fill 0.2s;
 }
-header img:hover {
-  color: #628e75;
+header svg:hover {
+  fill: #1a4855;
 }
 
 .main-container {
